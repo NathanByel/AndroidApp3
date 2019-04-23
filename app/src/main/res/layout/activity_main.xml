@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryLightCyanIndigo"
-    tools:context=".MainActivity"/>
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_text_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RUN_TEXTACTIVITY_TEXT" />
+
+    <Button
+        android:id="@+id/button_snack_bar_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RUN_SNACKBAR_ACTIVITY_TEXT" />
+
+    <Button
+        android:id="@+id/button_bottom_sheet_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RUN_BOTTOM_SHEET_ACTIVITY" />
+</LinearLayout>
