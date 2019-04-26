@@ -14,12 +14,12 @@
         android:layout_height="40dp"
         android:background="@color/colorAccent"
         android:gravity="center"
-        android:text="@string/BOTTOM_SHEET"
+        android:text="@string/bottom_sheet"
         android:textColor="@android:color/white" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="@string/BOTTOM_SHEET_CONTENT"
+        android:text="@string/bottom_sheet_content"
         android:textColor="@android:color/white" />
 </LinearLayout>

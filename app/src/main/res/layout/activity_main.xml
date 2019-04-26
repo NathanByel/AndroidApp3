@@ -12,17 +12,17 @@
         android:id="@+id/button_text_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/RUN_TEXTACTIVITY_TEXT" />
+        android:text="@string/run_text_activity" />
 
     <Button
         android:id="@+id/button_snack_bar_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/RUN_SNACKBAR_ACTIVITY_TEXT" />
+        android:text="@string/run_snack_bar_activity" />
 
     <Button
         android:id="@+id/button_bottom_sheet_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/RUN_BOTTOM_SHEET_ACTIVITY" />
+        android:text="@string/run_bottom_sheet_activity" />
 </LinearLayout>
