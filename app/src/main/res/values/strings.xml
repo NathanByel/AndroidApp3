@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AndroidApp3</string>
+    <string name="empty_text" />
+    <string name="error_text">Some error!</string>
+    <string name="hint_text">Some hint</string>
+    <string name="show_snack_bar">Show SnackBar</string>
+    <string name="run_text_activity">Run TextActivity</string>
+    <string name="run_snack_bar_activity">Run SnackBarActivity</string>
+    <string name="run_bottom_sheet_activity">Run BottomSheetActivity</string>
+    <string name="bottom_sheet">BottomSheet</string>
+    <string name="bottom_sheet_content">BottomSheet content</string>
 </resources>

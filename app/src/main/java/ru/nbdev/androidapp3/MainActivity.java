@@ -1,7 +1,9 @@
 package ru.nbdev.androidapp3;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,5 +11,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button buttonTextActivityRun = findViewById(R.id.button_text_activity_run);
+        buttonTextActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TextActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonSnackBarActivityRun = findViewById(R.id.button_snack_bar_activity_run);
+        buttonSnackBarActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SnackBarActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonBottomSheetActivityRun = findViewById(R.id.button_bottom_sheet_activity_run);
+        buttonBottomSheetActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BottomSheetActivity.class);
+            startActivity(intent);
+        });
     }
 }
