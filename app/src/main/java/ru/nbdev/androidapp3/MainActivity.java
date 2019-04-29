@@ -29,5 +29,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, BottomSheetActivity.class);
             startActivity(intent);
         });
+
+        Button buttonButtonsActivityRun = findViewById(R.id.button_buttons_activity_run);
+        buttonButtonsActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ButtonsActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonToolbarActivityRun = findViewById(R.id.button_toolbar_activity_run);
+        buttonToolbarActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ToolbarActivity.class);
+            startActivity(intent);
+        });
     }
 }
