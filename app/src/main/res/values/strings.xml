@@ -9,4 +9,6 @@
     <string name="run_bottom_sheet_activity">Run BottomSheetActivity</string>
     <string name="bottom_sheet">BottomSheet</string>
     <string name="bottom_sheet_content">BottomSheet content</string>
+    <string name="run_buttons_activity">Run ButtonsActivity</string>
+    <string name="run_toolbar_activity">Run ToolbarActivity</string>
 </resources>

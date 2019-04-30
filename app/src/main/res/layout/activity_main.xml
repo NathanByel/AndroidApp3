@@ -25,4 +25,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/run_bottom_sheet_activity" />
+
+    <Button
+        android:id="@+id/button_buttons_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_buttons_activity" />
+
+    <Button
+        android:id="@+id/button_toolbar_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_toolbar_activity" />
 </LinearLayout>
