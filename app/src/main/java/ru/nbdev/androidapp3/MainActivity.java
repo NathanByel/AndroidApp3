@@ -41,5 +41,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ToolbarActivity.class);
             startActivity(intent);
         });
+
+        Button buttonDrawerActivityRun = findViewById(R.id.button_drawer_activity_run);
+        buttonDrawerActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, DrawerActivity.class);
+            startActivity(intent);
+        });
     }
 }

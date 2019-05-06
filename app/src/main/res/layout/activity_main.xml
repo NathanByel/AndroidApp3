@@ -12,29 +12,41 @@
         android:id="@+id/button_text_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/run_text_activity" />
+        android:text="@string/run_text_activity"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button_snack_bar_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/run_snack_bar_activity" />
+        android:text="@string/run_snack_bar_activity"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button_bottom_sheet_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/run_bottom_sheet_activity" />
+        android:text="@string/run_bottom_sheet_activity"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button_buttons_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/run_buttons_activity" />
+        android:text="@string/run_buttons_activity"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/button_toolbar_activity_run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/run_toolbar_activity" />
+        android:text="@string/run_toolbar_activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_drawer_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_drawer_activity"
+        android:textAllCaps="false" />
 </LinearLayout>
