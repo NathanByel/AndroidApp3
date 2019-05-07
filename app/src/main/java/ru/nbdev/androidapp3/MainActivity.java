@@ -47,5 +47,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, DrawerActivity.class);
             startActivity(intent);
         });
+
+        Button buttonCollapsingActivityRun = findViewById(R.id.button_collapsing_activity_run);
+        buttonCollapsingActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, CollapsingActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonFabActivityRun = findViewById(R.id.button_fab_activity_run);
+        buttonFabActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, FabActivity.class);
+            startActivity(intent);
+        });
     }
 }

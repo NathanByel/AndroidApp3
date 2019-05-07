@@ -49,4 +49,18 @@
         android:layout_height="wrap_content"
         android:text="@string/run_drawer_activity"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_collapsing_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_collapsing_activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_fab_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_fab_activity"
+        android:textAllCaps="false" />
 </LinearLayout>
