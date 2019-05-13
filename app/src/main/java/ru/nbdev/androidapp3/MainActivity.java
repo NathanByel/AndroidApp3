@@ -1,7 +1,9 @@
 package ru.nbdev.androidapp3;
 
 import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -57,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
         Button buttonFabActivityRun = findViewById(R.id.button_fab_activity_run);
         buttonFabActivityRun.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, FabActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonRecyclerActivityRun = findViewById(R.id.button_recycler_activity_run);
+        buttonRecyclerActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
             startActivity(intent);
         });
     }
