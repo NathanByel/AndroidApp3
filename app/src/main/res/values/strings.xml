@@ -121,4 +121,6 @@
     </string>
     <string name="title_activity_fab">FabActivity</string>
     <string name="run_fab_activity">Run FabActivity</string>
+    <string name="run_recycler_activity">Run RecyclerActiviry</string>
+    <string name="some_text">some text</string>
 </resources>

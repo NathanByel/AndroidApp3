@@ -63,4 +63,11 @@
         android:layout_height="wrap_content"
         android:text="@string/run_fab_activity"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_recycler_activity_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/run_recycler_activity"
+        android:textAllCaps="false" />
 </LinearLayout>
