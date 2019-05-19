@@ -123,4 +123,12 @@
     <string name="run_fab_activity">Run FabActivity</string>
     <string name="run_recycler_activity">Run RecyclerActiviry</string>
     <string name="some_text">some text</string>
+    <string name="run_tab_activity">Run TabActivity</string>
+    <string name="run_bottom_activity">Run BottomActivity</string>
+    <string name="bottom_1">Action 1</string>
+    <string name="bottom_2">Action 2</string>
+    <string name="bottom_3">Action 3</string>
+    <string name="bottom_action_1">Action 1</string>
+    <string name="bottom_action_2">Action 2</string>
+    <string name="bottom_action_3">Action 3</string>
 </resources>

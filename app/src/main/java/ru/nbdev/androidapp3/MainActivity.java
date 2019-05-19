@@ -67,5 +67,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
             startActivity(intent);
         });
+
+        Button buttonTabActivityRun = findViewById(R.id.button_tab_activity_run);
+        buttonTabActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TabActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonBottomActivityRun = findViewById(R.id.button_bottom_activity_run);
+        buttonBottomActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BottomActivity.class);
+            startActivity(intent);
+        });
     }
 }

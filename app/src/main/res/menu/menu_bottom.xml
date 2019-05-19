@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.nbdev.androidapp3.CollapsingActivity">
+    <item
+        android:id="@+id/bottom_action_1"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/bottom_1" />
+    <item
+        android:id="@+id/bottom_action_2"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/bottom_2" />
+    <item
+        android:id="@+id/bottom_action_3"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/bottom_3" />
+</menu>
