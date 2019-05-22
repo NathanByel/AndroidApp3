@@ -131,4 +131,6 @@
     <string name="bottom_action_1">Action 1</string>
     <string name="bottom_action_2">Action 2</string>
     <string name="bottom_action_3">Action 3</string>
+    <string name="run_style_activity">Run StyleActivity</string>
+    <string name="run_theme_activity">Run ThemeActivity</string>
 </resources>

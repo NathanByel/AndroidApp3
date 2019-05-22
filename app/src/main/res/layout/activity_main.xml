@@ -1,87 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryLightCyanIndigo"
-    android:gravity="center_horizontal|center_vertical"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="@color/colorPrimaryLightCyanIndigo">
 
-    <Button
-        android:id="@+id/button_text_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_text_activity"
-        android:textAllCaps="false" />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_snack_bar_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_snack_bar_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_text_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_text_activity" />
 
-    <Button
-        android:id="@+id/button_bottom_sheet_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_bottom_sheet_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_snack_bar_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_snack_bar_activity" />
 
-    <Button
-        android:id="@+id/button_buttons_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_buttons_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_bottom_sheet_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_bottom_sheet_activity" />
 
-    <Button
-        android:id="@+id/button_toolbar_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_toolbar_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_buttons_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_buttons_activity" />
 
-    <Button
-        android:id="@+id/button_drawer_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_drawer_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_toolbar_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_toolbar_activity" />
 
-    <Button
-        android:id="@+id/button_collapsing_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_collapsing_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_drawer_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_drawer_activity" />
 
-    <Button
-        android:id="@+id/button_fab_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_fab_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_collapsing_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_collapsing_activity" />
 
-    <Button
-        android:id="@+id/button_recycler_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_recycler_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_fab_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_fab_activity" />
 
-    <Button
-        android:id="@+id/button_tab_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_tab_activity"
-        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/button_recycler_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_recycler_activity" />
 
-    <Button
-        android:id="@+id/button_bottom_activity_run"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/run_bottom_activity"
-        android:textAllCaps="false" />
-</LinearLayout>
+        <Button
+            android:id="@+id/button_tab_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_tab_activity" />
+
+        <Button
+            android:id="@+id/button_bottom_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_bottom_activity" />
+
+        <Button
+            android:id="@+id/button_style_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_style_activity" />
+
+        <Button
+            android:id="@+id/button_theme_activity_run"
+            style="@style/main_activity_buttons"
+            android:text="@string/run_theme_activity" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

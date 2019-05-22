@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StyleActivity">
+
+    <Button
+        android:id="@+id/button_1"
+        style="@style/test_buttons_style"
+        android:text="@string/some_text" />
+
+    <Button
+        android:id="@+id/button_2"
+        style="@style/test_buttons_style"
+        android:text="@string/some_text" />
+
+    <Button
+        android:id="@+id/button_3"
+        style="@style/test_buttons_style"
+        android:text="@string/some_text" />
+
+    <Button
+        android:id="@+id/button_4"
+        style="@style/test_buttons_style"
+        android:text="@string/some_text" />
+
+    <Button
+        android:id="@+id/button_5"
+        style="@style/test_buttons_style"
+        android:text="@string/some_text" />
+
+</LinearLayout>

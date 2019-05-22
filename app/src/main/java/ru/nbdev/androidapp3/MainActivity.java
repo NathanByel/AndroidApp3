@@ -79,5 +79,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, BottomActivity.class);
             startActivity(intent);
         });
+
+        Button buttonStyleActivityRun = findViewById(R.id.button_style_activity_run);
+        buttonStyleActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, StyleActivity.class);
+            startActivity(intent);
+        });
+
+        Button buttonThemeActivityRun = findViewById(R.id.button_theme_activity_run);
+        buttonThemeActivityRun.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ThemeActivity.class);
+            startActivity(intent);
+        });
     }
 }
